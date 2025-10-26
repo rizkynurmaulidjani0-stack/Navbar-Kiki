@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(154, 3, 91);
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+nav {
+    background-color: rgb(18, 92, 53);
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 35rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(165, 163, 49);
+    transition: 0.5s;
+    
+}
+
+div {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-left: 40px;
+}
+
+div span {
+    color: rgb(226, 43, 165);
+}
+
+nav ul li a:hover {
+    color: rgb(92, 159, 44);
+    text-decoration: underline;
+    
+    
+}
